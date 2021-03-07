@@ -50,7 +50,12 @@ def WeatherHandle(Result):
 Connection.get(city="New York")
 ```
 
-syntax:
+Connect syntax:
+```python
+Connect(appid:str=...)
+```
+
+Connect.get syntax:
 ```python
 Connect.get(city:str, country:str=None, lang:str=None)
 ```
