@@ -22,6 +22,7 @@ Or
 from weather import Connect
 ```
 
+Example:
 ```python
 import weather
 
@@ -47,6 +48,11 @@ def WeatherHandle(Result):
     print(Result)
 
 Connection.get(city="New York")
+```
+
+syntax:
+```python
+Connect.get(city:str, country:str=None, lang:str=None)
 ```
 
 If City Not Founded, You get weather.errors.NotFoundCityError error
