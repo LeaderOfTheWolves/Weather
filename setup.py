@@ -11,6 +11,7 @@ setup(
     long_description_content_type='text/markdown',
     author='LeaderOfTheWolves',
     author_email='ImLeaderOfTheWolves@gmail.com',
+    url="https://github.com/LeaderOfTheWolves/Weather",
     packages=['weather'],
     classifiers = [
         "Programming Language :: Python :: 3.7",
