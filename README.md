@@ -60,4 +60,4 @@ Connect.get syntax:
 Connect.get(city:str, country:str=None, lang:str=None)
 ```
 
-If City Not Founded, You get weather.errors.NotFoundCityError error
+If City Not Founded, You get **weather.errors.NotFoundCityError** error
