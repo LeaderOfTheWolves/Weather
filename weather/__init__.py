@@ -58,7 +58,6 @@ class Connect:
         
         if(self.func != []):
             for func in self.func:
-                print(func)
                 func(result)
     
         else: return result
